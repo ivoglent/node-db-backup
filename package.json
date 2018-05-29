@@ -1,0 +1,51 @@
+{
+  "name": "node-db-backup",
+  "version": "1.0.0",
+  "description": "Database backup tasks on node",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivoglent/node-db-backup.git"
+  },
+  "keywords": [
+    "node",
+    "backup",
+    "backup",
+    "db",
+    "backup",
+    "mysql",
+    "backup",
+    "mongodb",
+    "auto",
+    "backup",
+    "cron",
+    "backup"
+  ],
+  "author": "Long Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivoglent/node-db-backup/issues"
+  },
+  "homepage": "https://github.com/ivoglent/node-db-backup#readme",
+  "bin": {
+    "node-db-backup": "./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.2",
+    "@types/mocha": "^2.2.48",
+    "@types/node": "^6.0.104",
+    "chai": "^4.1.2",
+    "del": "^3.0.0",
+    "mocha": "^4.1.0",
+    "ts-node": "^3.3.0",
+    "typings": "^2.1.1",
+    "yargs": "^10.1.2"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.11",
+    "command-line-args": "^5.0.2"
+  }
+}
